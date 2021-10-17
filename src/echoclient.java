@@ -2,7 +2,8 @@ import java.io.*;
 import java.net.*;
 
 public class echoclient {
-    public static void main(String[] args) throws IOException {
+    @SuppressWarnings("resource")
+	public static void main(String[] args) throws IOException {
 
         // Set up the socket, in and out variables
 
